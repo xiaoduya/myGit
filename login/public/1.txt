@@ -1,0 +1,206 @@
+<li>
+                            <div class="leftImg"><img src="avatar/201903281138584151.jpg" alt="" style="width:25px;height:25px;"/></div>
+                            <div class="rightContent">
+                                <span class="fansName">小明说:</span>
+                                <p>saiiadhahdahsdauhdahduawqw无切换uashdajhsdj1ia阿达helow 请我好奇和
+                                 啊啊大家</p>
+                                 <div class="handle clearfix">
+                                     <div class="handleLeft">
+                                          <span>2019年4月3日8:58</span>
+                                     </div>
+
+                                     <div class="handleRight">
+                                          <span>赞</span>
+                                          <span>评论</span>
+                                     </div>
+                                 </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="leftImg">
+                                 <img src="avatar/201903281138584151.jpg" alt="" style="width:25px;height:25px;"/>
+                            </div>
+                            <div class="rightContent">
+                                <span class="fansName">小明说:</span>
+                                <p>saiiadhahdahsdauhdahduawqw无切换uashdajhsdj1ia阿达helow 请我好奇和
+                                 啊啊大家</p>
+                                 <div class="handle clearfix">
+                                     <div class="handleLeft">
+                                          <span>2019年4月3日8:58</span>
+                                     </div>
+
+                                     <div class="handleRight">
+                                          <span>赞</span>
+                                          <span>评论</span>
+                                     </div>
+                                 </div>
+
+                            </div>
+                        </li>
+
+///首页评论区模块
+    <li class="clearfix">
+                   <div class="commentLeft">
+                       <img src="./public/image/avatar.jpg" alt="" />
+                   </div>
+                   <div class="commentRight">
+                       <p>
+                           可否有另一个我在你身后给予快乐
+
+                            可当我牵着你的手傻乎乎的乐
+
+                            渴望的爱情终于在我生命出现了
+
+                            可时间倒数了 可你的答案停住了
+
+                            可想到你的脸我还是很快乐
+
+                            可能你不快乐 可惜你不快乐
+
+                            可能是我的爱情它来的太晚了
+                            <div class="commentImg">
+                                <a href="">
+                                <span>
+                                <img src="https://tvax3.sinaimg.cn/crop.5.0.902.902.50/5f034df1ly8fys7rvq6nij20rs0rs1br.jpg" alt="" id="MinAvatar"/>
+                                </span>
+                                <span>我叫mt25</span>
+                                </a>
+                                <span>3月30 16:01</span>
+                                <span class="icon iconfont"><a href="">&#xe635;</a></span>
+                                <span class="giveNumber">666666</span>
+                                <span class="icon iconfont"><a href="/collect/comment.php">&#xe638;</a></span>
+                                <span class="commnetsNumber">6666666666</span>
+                            </div>
+                       </p>
+                   </div>
+               </li>
+               <li class="clearfix">
+                   <div class="commentLeft">
+                       <img src="./public/image/avatar.jpg" alt="" />
+                   </div>
+                   <div class="commentRight">
+                       <p>
+                           可否有另一个我在你身后给予快乐
+
+                            可当我牵着你的手傻乎乎的乐
+
+                            渴望的爱情终于在我生命出现了
+
+                            可时间倒数了 可你的答案停住了
+
+                            可想到你的脸我还是很快乐
+
+                            可能你不快乐 可惜你不快乐
+
+                            可能是我的爱情它来的太晚了
+                            <div class="commentImg">
+                                <a href="">
+                                <span><img src="https://tvax3.sinaimg.cn/crop.5.0.902.902.50/5f034df1ly8fys7rvq6nij20rs0rs1br.jpg" alt="" id="MinAvatar"/></span>
+                                </a>
+                                <span>3月30 16:01</span>
+                                <span class="icon iconfont"><a href="">&#xe635;</a></span>
+                                <span class="giveNumber">666666</span>
+                                <span class="icon iconfont"><a href="">&#xe638;</a></span>
+                                <span class="commnetsNumber">6666666666</span>
+                            </div>
+                       </p>
+                   </div>
+               </li>
+               <li class="clearfix">
+                   <div class="commentLeft">
+                       <img src="./public/image/avatar.jpg" alt="" />
+                   </div>
+                   <div class="commentRight">
+                       <p>
+                           可否有另一个我在你身后给予快乐
+
+                            可当我牵着你的手傻乎乎的乐
+
+                            渴望的爱情终于在我生命出现了
+
+                            可时间倒数了 可你的答案停住了
+
+                            可想到你的脸我还是很快乐
+
+                            可能你不快乐 可惜你不快乐
+
+                            可能是我的爱情它来的太晚了
+                            <div class="commentImg">
+                                <a href="">
+                                <span><img src="https://tvax3.sinaimg.cn/crop.5.0.902.902.50/5f034df1ly8fys7rvq6nij20rs0rs1br.jpg" alt="" id="MinAvatar"/></span>
+                                </a>
+                                <span>3月30 16:01</span>
+                                <span class="icon iconfont"><a href="">&#xe635;</a></span>
+                                <span class="giveNumber">666666</span>
+                                <span class="icon iconfont"><a href="">&#xe638;</a></span>
+                                <span class="commnetsNumber">6666666666</span>
+                            </div>
+                       </p>
+                   </div>
+               </li>
+                <li class="clearfix">
+                   <div class="commentLeft">
+                       <img src="./public/image/avatar.jpg" alt="" />
+                   </div>
+                   <div class="commentRight">
+                       <p>
+                           可否有另一个我在你身后给予快乐
+
+                            可当我牵着你的手傻乎乎的乐
+
+                            渴望的爱情终于在我生命出现了
+
+                            可时间倒数了 可你的答案停住了
+
+                            可想到你的脸我还是很快乐
+
+                            可能你不快乐 可惜你不快乐
+
+                            可能是我的爱情它来的太晚了
+                            <div class="commentImg">
+                                <a href="">
+                                <span><img src="https://tvax3.sinaimg.cn/crop.5.0.902.902.50/5f034df1ly8fys7rvq6nij20rs0rs1br.jpg" alt="" id="MinAvatar"/></span>
+                                </a>
+                                <span>3月30 16:01</span>
+                                <span class="icon iconfont"><a href="">&#xe635;</a></span>
+                                <span class="giveNumber">666666</span>
+                                <span class="icon iconfont"><a href="">&#xe638;</a></span>
+                                <span class="commnetsNumber">6666666666</span>
+                            </div>
+                       </p>
+                   </div>
+               </li>
+                <li class="clearfix">
+                   <div class="commentLeft">
+                       <img src="./public/image/avatar.jpg" alt="" />
+                   </div>
+                   <div class="commentRight">
+                       <p>
+                           可否有另一个我在你身后给予快乐
+
+                            可当我牵着你的手傻乎乎的乐
+
+                            渴望的爱情终于在我生命出现了
+
+                            可时间倒数了 可你的答案停住了
+
+                            可想到你的脸我还是很快乐
+
+                            可能你不快乐 可惜你不快乐
+
+                            可能是我的爱情它来的太晚了
+                            <div class="commentImg">
+                                <a href="">
+                                <span><img src="https://tvax3.sinaimg.cn/crop.5.0.902.902.50/5f034df1ly8fys7rvq6nij20rs0rs1br.jpg" alt="" id="MinAvatar"/></span>
+                                </a>
+                                <span>3月30 16:01</span>
+                                <span class="icon iconfont"><a href="">&#xe635;</a></span>
+                                <span class="giveNumber">666666</span>
+                                <span class="icon iconfont"><a href="">&#xe638;</a></span>
+                                <span class="commnetsNumber">6666666666</span>
+                            </div>
+                       </p>
+                   </div>
+               </li>
+//评论区end

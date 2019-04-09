@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>文件上传</title>
+    <script src="/public/js/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('#btn').click(function () {
+                let formData = new FormData();
+                let img_file = document.getElementById('file')
+                var fileObj  = img_file.files[0];
+                let text = $("input[name='text']").val()
+
+                formData.append('classIcon',fileObj)
+                formData.append('classDescribe',text)
+
+                    $.ajax({
+                        url : '/public/ajaxFile.php',
+                        type : 'POST',
+                        data : formData,
+                        async :false,
+                        processData : false,
+                        contentType : false,
+                        success : function (data) {
+                            console.log(data)
+                        }
+                    })
+            })
+
+        })
+    </script>
+</head>
+<body>
+    <div>
+
+            图片:<input type="file" name="file" id="file">
+            内容: <input type="text" name="text">
+            <button id="btn">提交</button>
+    </div>
+</body>
+</html>

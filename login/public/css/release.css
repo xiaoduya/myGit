@@ -1,0 +1,46 @@
+/*
+* @Author: name
+* @Date:   2019-04-03 18:21:34
+* @Last Modified by:   name
+* @Last Modified time: 2019-04-03 20:13:22
+*/
+body {
+  background-image:url('../../public/image/body_bg.jpg');
+}
+.Release {
+    margin-top:20px;
+}
+.Rcoontent {
+    margin:0 auto;
+    width:40%;
+    // border:1px solid red;
+    background-color:white;
+}
+
+.Rcoontent textarea {
+    outline:none;
+    word-wrap: break-word;
+    resize:none;
+}
+
+#value {
+    width:100%;
+}
+.haha {
+    display:block;
+    height:50px;
+}
+.file {
+    width:0px;
+    height:0px;
+    visibility:hidden;
+}
+
+.img {
+    color:green;
+    font-size:40px;
+}
+.img .adad {
+    font-size:15px;
+    color:#000;
+}
