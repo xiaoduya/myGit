@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:black;
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+        body {
+            /*background:url(img/timg.jfif);*/
+        }
+        ul {
+            width:500px;
+        }
+        li {
+           position: absolute;
+            list-style: none;
+            opacity: 0;
+        }
+        img {
+            width:250px;
+            height:450px;
+        }
+        .one {
+            opacity:1;
+            animation:moveX 2s forwards;
+            animation-delay:1s;
+        }
+        @keyframes moveX {
+            0%{}
+            100%{
+                opacity: 0;
+            }
+        }
+        @keyframes oapcity2 {
+            0%{}
+            100%{
+                opacity: 1;
+            }
+        }
+        @keyframes opacity3 {
+            0%{}
+            100%{
+                opacity: 1;
+            }
+        }
+        .wrp {
+            width:250px;
+            height:450px;
+            overflow: hidden;
+            margin:200px auto;
+        }
+        .two {
+            opacity: 0;
+            animation:oapcity2 4s;
+            animation-delay: 1s;
+        }
+        .three {
+            animation: opacity3 6s forwards;
+            animation-delay: 3s;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrp">
+        <ul>
+            <li class="one">
+                <img src="img/1.jpg">
+            </li>
+            <li class="two">
+                <img src="img/2.png">
+            </li>
+            <li class="three">
+                <img src="img/4.jpg">
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

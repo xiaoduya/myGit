@@ -1,0 +1,110 @@
+<!DOCTYPE html><!--能够让我们的文件被浏览器认识--> 
+<html> <!--整个页面 最大的标签--> 
+    <head><!--网页头部-->
+        <meta charset="utf-8"><!--控制网页认识中文-->
+        <title>京东 京东.com</title>
+        <style>
+            body/* 标签选择器*/{
+                background-image:url(img/timg.jfif);
+            }
+            img {
+
+                position:absolute;/*绝对定位 页面 重新 绘制*/
+                /*能见度最高 0 - 1 0.1*/
+                width:250px;
+                height:450px;
+                transition:all 3s;
+            }
+            .one {
+                opacity: 1;
+                z-index: 6;
+                /* animation:opacityImg 3s forwards;forwards 保存动画最后转态 */
+            }
+            .one:hover {
+                opacity: 0;
+
+                width:500px;
+                height:500px;
+            }
+            .two {
+                opacity: 0;/*不可见*/
+                /* animation:opacityTwo 4s forwards;
+                animation-delay: 2s; */
+            }
+            .three {
+                float:left;
+                opacity: 0;
+                /* animation: opacityThree 6s forwards;
+                animation-delay: 5s; */
+                
+            }
+            @keyframes opacityImg{
+                    0%{}
+                    100%{
+                        opacity: 0;/*不可见*/
+                    }
+            }
+
+            @keyframes opacityTwo{
+                    0%{}
+                    100%{
+                        opacity: 1;/*可见*/
+                    }
+            }
+            @keyframes opacityThree{
+                    0%{}
+                    100%{
+                        opacity: 1;/*可见*/
+                    }
+            }
+        </style>
+    </head>
+    <body>
+        <img src="img/1.jpg" class="one">
+        <img src="img/2.png" class="two"> <!--第二个盖住第一个-->
+        <img src="img/4.jpg" class="three">
+    </body>
+</html>
+
+<!-- 思路 整理
+    做第一步 吧整个网页背景变成图片 （只需要改变body背景 body的背景颜色） 
+    （改变某个结构 叫做设置样式）
+    background - 背景 color - 颜色 background-color 背景颜色
+    background - 背景 image - 图片 background-image 背景图片 url(当前图片 所在位置)
+    思路结构二
+    在页面 添加 一张图片 （再添加多张） img改变 图片大小（width 宽度 height高度）
+    改变元素 位置 让图片重合（定位元素 特性改变元素位置 让元素重合）
+    决对 定位（让元素重合） 相对定位 固定定位
+    显示（显示度能见度 最高）和隐藏 （显示度最低）— （opacity）
+    
+    javascript 定时器 css 动画属性   (三特性 动画开始0% 动画名字 动画 100% 结束)
+    都市细节 企业开发经验
+    1 w行 代码 （服务器上）
+    打开 速度 小于 0.2s （大公司开发者 Alibaba 百度 腾讯）
+    怎么把页面变快 （代码性能优化）
+    1s以上
+    大公司 
+    学校老师 绝对不会跟你讲这么细 （基础 好 决定高度）
+    JavaScript （dom操作 页面性能 （jquery vue react （核心））
+    企业班
+    前端从来不缺人 （html js css 烂大街）
+     （指导你好工作为止）13年
+    前端 框架写电脑软件
+    一 （学好基础 html5 css3 js typescript 对js做了更新）3980
+
+    二阶段 （就业阶段）人才 （react vue（element） webpack node 小程序） 6个月时间 
+    中高级前端水平（月薪1w3 3 2w）3w 月薪（买车 买房 70-w）出人头地（想要跟好人生）
+    前端 （弱类型语音 简单和易学 学生 人群 0基础人群 转行 工作需求量 很大）（挣钱最快）
+    晚上 8点半 至 晚上 10 点 （8660）一年来还
+    前端3d开发工程师（three） （前两个同学 预定500 -1000）
+     7580 分期免息 
+     （阿里云ac认证（考试资格 资料） 得到阿里巴巴就业推荐 10w家公司 对人生有帮助的）
+     全程直播 家录播） 26期班级 （某节课） 27 28 
+     （2年）（难度非常低）
+    （进厂 销售 ）
+    弱点是好滴
+    星期天（） 星期三 （）12456（上课时间）
+    9岁 50岁（爱好） 孙子
+    职业 （切图切好）
+    服务器也好 数据库 都市后台搭好
+-->
